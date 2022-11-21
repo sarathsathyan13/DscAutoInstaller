@@ -5,6 +5,7 @@ Steps To Copy Paste
 
 sudo apt install git
 sudo snap install curl
+sudo apt install default-jre -y
 
 git clone https://github.com/sarathsathyan13/DscAutoInstaller.git
 
