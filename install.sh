@@ -14,8 +14,8 @@ fi
 
 if [ $token = "PROXKEY" ]; then
 
-	sudo dpkg -i files/proxkey_ubantu.deb
-	sudo dpkg -i files/NICDSign.deb
+	sudo dpkg -i proxkey_ubantu.deb
+	sudo dpkg -i NICDSign.deb
 	mkdir -p $HOME/Documents
 	cp -r /usr/local/DSign/ssl $HOME/Documents/
 	mkdir -p $HOME/.config/autostart
